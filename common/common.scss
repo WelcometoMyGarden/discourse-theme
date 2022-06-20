@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "Fakt Pro";
+  font-family: "FaktPro";
   src: url("https://telraam.net/fonts/Fakt-Normal.eot");
   src: url("https://telraam.net/fonts/Fakt-Normal.eot?#iefix") format("embedded-opentype"),
   url("https://telraam.net/fonts/Fakt-Normal.woff") format("woff"),
@@ -9,15 +9,16 @@
   font-style: 400;
 }
 @font-face {
-  font-family: "Fakt Pro";
-  src: url("../fonts/Fakt-Semibold.eot");
-  src: url("../fonts/Fakt-Semibold.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/Fakt-Semibold.woff") format("woff"),
-  url("../fonts/Fakt-Semibold.ttf") format("truetype"),
-  url("../fonts/Fakt-Semibold.svg#altivo-regular") format("svg");
+  font-family: "FaktPro";
+  src: url("https://telraam.net/fonts/Fakt-Semibold.eot");
+  src: url("https://telraam.net/fonts/Fakt-Semibold.eot?#iefix") format("embedded-opentype"),
+  url("https://telraam.net/fonts/Fakt-Semibold.woff") format("woff"),
+  url("https://telraam.net/fonts/Fakt-Semibold.ttf") format("truetype"),
+  url("https://telraam.net/fonts/Fakt-Semibold.svg#altivo-regular") format("svg");
   font-weight: 700;
   font-style: 700;
 }
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 @import 'variables';
 
@@ -149,7 +150,7 @@ input[type="color"]:focus,
 }
 
 body {
-  font-family: 'Fakt Pro, Helvetica';
+  font-family: 'FaktPro', 'Open+Sans', Helvetica;
 }
 a {
   color: var(--tertiary-hover);
@@ -414,4 +415,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 .search-menu .search-input input#search-term {
   background: #fff;
+}
+.btn-default {
+  color: #fff;
 }
