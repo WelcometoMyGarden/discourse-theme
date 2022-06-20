@@ -1,0 +1,11 @@
+@mixin border-radius {
+  border-radius: 10px;
+}
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-box-shadow: #65a797;
+$color-mint: #1B8C63;
+$color-blue: #A0D5D8;
+$color-square-gradient: linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
+$color-square-webkit-gradient: -webkit-linear-gradient(4deg, rgba(143,236,202,.29) 55%, rgba(74, 247, 255, 0.08) 100%);
