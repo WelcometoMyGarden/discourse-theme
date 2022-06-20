@@ -418,13 +418,22 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   line-height: 17px;
 }
 
-/* categories images */
+/* categories list */
 .category-logo.aspect-image {
   width:160px;
   margin-right: 10px;
 }
 .category-list .topics {
   width: 50px;
+}
+.category-list tbody .category {
+  border-left:0;
+}
+
+/* other column  */
+.latest-topic-list-item {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 /* banner on top */
