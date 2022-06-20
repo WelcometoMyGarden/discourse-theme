@@ -1,12 +1,12 @@
 {
-  "name": "Mint",
+  "name": "Basilicum",
   "about_url": null,
   "license_url": null,
   "color_schemes": {
-    "mint": {
-      "primary": "454545",
-      "secondary": "F6FBFC",
-      "tertiary": "4F8A7C",
+    "basilicum": {
+      "primary": "0000",
+      "secondary": "A0D5D8",
+      "tertiary": "A0D5D8",
       "header_background": "ffffff",
       "header_primary": "111111"
     }
