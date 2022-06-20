@@ -6,7 +6,6 @@
   url("https://telraam.net/fonts/Fakt-Normal.ttf") format("truetype"),
   url("https://telraam.net/fonts/Fakt-Normal.svg#altivo-regular") format("svg");
   font-weight: 400;
-  font-style: 400;
 }
 @font-face {
   font-family: "FaktPro";
@@ -16,9 +15,8 @@
   url("https://telraam.net/fonts/Fakt-Semibold.ttf") format("truetype"),
   url("https://telraam.net/fonts/Fakt-Semibold.svg#altivo-regular") format("svg");
   font-weight: 700;
-  font-style: 700;
 }
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 
 @import 'variables';
 
@@ -109,9 +107,9 @@ input[type="color"]:focus,
 
 .navigation-categories .search-banner {
   @include border-radius;
-  height: 350px;
+  height: 240px;
   box-sizing: border-box;
-  padding: 2.5em 0 3em;
+  padding: 1.5em 0 3em;
   margin: 1em auto;
   max-width: 1110px;
 }
@@ -399,20 +397,44 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
   }
 }
 
-/* DAVE 20 jun 2022 */
+/* DAVE 20 jun 2022 ------------*/
+
+.categories-and-latest div.column {
+  padding: 10px;
+  flex: 1 0 0px;
+}
+.categories-and-latest div.column.categories,
+.categories-and-top div.column.categories {
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  flex: 2 0 0px;
+}
+.topic-list-main-link a.title, .topic-list .main-link a.title,
+.latest-topic-list-item .main-link a.title {
+  padding: 5px 0;
+  display: inline-block;
+  line-height: 15px;
+  font-size: 17px;
+}
+
+/* categories images */
 .category-logo.aspect-image {
   width:160px;
   margin-right: 10px;
 }
 .category-list .topics {
-  width: 60px;
+  width: 50px;
 }
+
+/* banner on top */
 .custom-search-banner-wrap h1 {
   color: #000;
 }
 .custom-search-banner-wrap p {
   color: #1B8C63;
 }
+
 .search-menu .search-input input#search-term {
   background: #fff;
 }
