@@ -432,7 +432,10 @@ h1, h2, .fancy-title, .category-name {
 .category-list tbody .category {
   border-left:0;
 }
-
+.categories-list .category .category-description {
+  min-height: 150px;
+  display: table-cell;
+}
 /* other column  */
 .latest-topic-list-item {
   padding-top: 0.5em;
