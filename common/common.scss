@@ -3,10 +3,10 @@
 
 @font-face {
   font-family: "Fakt Pro";
-  url($faktproWoff) format("woff"),
+  src: url($faktproWoff) format("woff"),
   url($faktproWoff2) format("woff2"),
   url($faktproTtf) format("truetype"),
-  url($faktproSvg) format("svg"),
+  url($faktproSvg) format("svg");
   font-weight: 400;
 }
 
