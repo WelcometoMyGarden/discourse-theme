@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: FaktPro;
-  src: url('../assets/Fakt-Normal.woff2') format('woff2');
+  src: url($faktpro) format('woff2');
   font-weight: 400;
 }
 @font-face {
@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: EuclidSquare;
-  src: url($EuclidSquare) format('woff2');
+  src: url($euclidsquare) format('woff2');
   font-weight: 400;
 }
 
