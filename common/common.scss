@@ -1,22 +1,18 @@
 @font-face {
-  font-family: "FaktPro";
-  src: url("https://telraam.net/fonts/Fakt-Normal.eot");
-  src: url("https://telraam.net/fonts/Fakt-Normal.eot?#iefix") format("embedded-opentype"),
-  url("https://telraam.net/fonts/Fakt-Normal.woff") format("woff"),
-  url("https://telraam.net/fonts/Fakt-Normal.ttf") format("truetype"),
-  url("https://telraam.net/fonts/Fakt-Normal.svg#altivo-regular") format("svg");
+  font-family: FaktPro;
+  src: url($FaktPro) format('woff2');
   font-weight: 400;
 }
 @font-face {
-  font-family: "FaktPro";
-  src: url("https://telraam.net/fonts/Fakt-Semibold.eot");
-  src: url("https://telraam.net/fonts/Fakt-Semibold.eot?#iefix") format("embedded-opentype"),
-  url("https://telraam.net/fonts/Fakt-Semibold.woff") format("woff"),
-  url("https://telraam.net/fonts/Fakt-Semibold.ttf") format("truetype"),
-  url("https://telraam.net/fonts/Fakt-Semibold.svg#altivo-regular") format("svg");
+  font-family: FaktPro;
+  src: url($FaktProSemiBold) format('woff2');
   font-weight: 700;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@font-face {
+  font-family: EuclidSquare;
+  src: url($EuclidSquare) format('woff2');
+  font-weight: 400;
+}
 
 @import 'variables';
 
@@ -64,7 +60,7 @@ input[type="color"]:focus,
 
 .d-header {
   height: 5em;
-  box-shadow: 0px 9px 10px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 7px 8px 1px rgba(0, 0, 0, 0.15);
 }
 
 .alert.alert-info {
@@ -147,9 +143,6 @@ input[type="color"]:focus,
   color: $color-black;
 }
 
-body {
-  font-family: 'FaktPro', 'Open Sans', Helvetica;
-}
 a {
   color: var(--tertiary-hover);
 }
@@ -398,6 +391,12 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 /* DAVE 20 jun 2022 ------------*/
+body {
+  font-family: FaktPro, Helvetica;
+}
+h1, h2, .fancy-title, .category-name {
+  font-family: EuclidSquare, Helvetica;
+}
 
 .categories-and-latest div.column {
   padding: 10px;
@@ -419,8 +418,11 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 
 /* categories list */
+.category-list .thead {
+  display: none;
+}
 .category-logo.aspect-image {
-  width:160px;
+  width:180px;
   margin-right: 10px;
 }
 .category-list .topics {
@@ -449,4 +451,9 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 }
 .btn-default {
   color: #fff;
+}
+.dropdown-select-box-header,
+.btn-default,
+.nav-pills li a.active {
+  border-radius: 20px;
 }

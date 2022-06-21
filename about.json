@@ -11,5 +11,10 @@
       "header_primary": "111111"
     }
   },
+  "assets":{
+    "FaktPro": "../assets/Fakt-Normal.woff2",
+    "FaktProSemiBold": "../assets/Fakt-SemiBold.woff2",
+    "EuclidSquare": "../assets/EuclidSquare-Medium.woff2"
+  },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
 }
