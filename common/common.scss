@@ -2,7 +2,7 @@
 
 
 @font-face {
-  font-family: "Fakt Pro";
+  font-family: FaktPro;
   src: url($faktproWoff) format("woff"),
   url($faktproWoff2) format("woff2"),
   url($faktproTtf) format("truetype"),
@@ -201,11 +201,10 @@ a {
     color: var(--secondary);
   }
   &:hover {
-    background: var(--tertiary);
-    color: var(--secondary);
-    box-shadow: 4px 4px $color-box-shadow;
+    background: #000;
+    color: #fff;
+    // box-shadow: 4px 4px $color-box-shadow;
     transition: all 0.3s linear;
-    @include border-radius;
     .fa {
       color: var(--secondary);
     }
@@ -467,6 +466,7 @@ h1, h2, .fancy-title, .category-name {
   color: #fff;
 }
 
+/* buttons */
 .dropdown-select-box-header,
 .dropdown-select-box-header:hover,
 .btn-default,
@@ -476,4 +476,8 @@ h1, h2, .fancy-title, .category-name {
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
   border-radius: 20px;
+}
+
+#create-topic:hover {
+  box-shadow: none;
 }
