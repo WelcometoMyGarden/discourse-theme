@@ -457,12 +457,14 @@ h1, h2, .fancy-title, .category-name {
 .btn-default {
   color: #fff;
 }
+
 .dropdown-select-box-header,
 .dropdown-select-box-header:hover,
 .btn-default,
 .btn-default:hover,
 .nav-pills li a.active,
-.nav-pills li a.active:hover;
-.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
+.nav-pills li a.active:hover,
+.discourse-no-touch .btn:hover,
+.discourse-no-touch .btn.btn-hover {
   border-radius: 20px;
 }
