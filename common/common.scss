@@ -429,6 +429,7 @@ h1, h2, .fancy-title, .category-name {
   width:120px;
   margin-right: 20px;
   padding-right: 20px;
+  margin-bottom: 10px;
 }
 .category-list .topics {
   width: 50px;
@@ -466,11 +467,16 @@ h1, h2, .fancy-title, .category-name {
   background: #fff;
 }
 
+/* category detail */
+
 .category-heading p {
   max-width: 800px;
   margin-left: 20px;
   margin-right: 20px;
   font-size: 18px;
+  display: table-cell;
+  vertical-align: middle;
+  height:120px;
 }
 
 /* buttons */
