@@ -6,11 +6,6 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: FaktPro;
-  src: url($faktprosemibold) format('woff2');
-  font-weight: 700;
-}
-@font-face {
   font-family: EuclidSquare;
   src: url($euclidsquare) format('woff2');
   font-weight: 400;
@@ -396,7 +391,7 @@ body {
   font-family: FaktPro, Helvetica;
 }
 h1, h2, .fancy-title, .category-name {
-  font-family: EuclidSquare, Helvetica;
+  font-family: 'Euclid Square', Helvetica;
 }
 
 .categories-and-latest div.column {
