@@ -395,7 +395,7 @@ body {
   font-family: 'FaktPro', "Times New Roman";
 }
 h1, h2, .fancy-title, .category-name {
-  font-family: 'Euclid Square', Helvetica;
+  font-family: 'EuclidSquare', Helvetica;
 }
 
 .categories-and-latest div.column {
@@ -425,7 +425,7 @@ h1, h2, .fancy-title, .category-name {
   border-top: 0;
 }
 .category-logo.aspect-image {
-  width:180px;
+  width:120px;
   margin-right: 10px;
 }
 .category-list .topics {
@@ -441,7 +441,7 @@ h1, h2, .fancy-title, .category-name {
   font-size: 12px;
 }
 .categories-list .category .category-description {
-  height: 150px;
+  height: 140px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -472,6 +472,7 @@ h1, h2, .fancy-title, .category-name {
 .btn-default,
 .btn-default:hover,
 .nav-pills li a.active,
+.select-kit.dropdown-select-box .dropdown-select-box-header,
 .nav-pills li a.active:hover,
 .discourse-no-touch .btn:hover,
 .discourse-no-touch .btn.btn-hover {
