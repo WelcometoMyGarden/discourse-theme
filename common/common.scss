@@ -419,8 +419,8 @@ h1, h2, .fancy-title, .category-name {
 }
 
 /* categories list */
-.category-list .thead {
-  display: none;
+.category-list thead {
+ // display: none;
 }
 .category-logo.aspect-image {
   width:180px;
@@ -433,8 +433,9 @@ h1, h2, .fancy-title, .category-name {
   border-left:0;
 }
 .categories-list .category .category-description {
-  min-height: 150px;
+  height: 150px;
   display: table-cell;
+  vertical-align: middle;
 }
 /* other column  */
 .latest-topic-list-item {
@@ -457,7 +458,10 @@ h1, h2, .fancy-title, .category-name {
   color: #fff;
 }
 .dropdown-select-box-header,
+.dropdown-select-box-header:hover,
 .btn-default,
-.nav-pills li a.active {
+.btn-default:hover,
+.nav-pills li a.active,
+.nav-pills li a.active:hover {
   border-radius: 20px;
 }
