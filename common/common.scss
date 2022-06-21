@@ -431,6 +431,9 @@ h1, h2, .fancy-title, .category-name {
   padding-right: 20px;
   margin-bottom: 10px;
 }
+.categories-list .category-logo.aspect-image {
+  padding-right: 0;
+}
 .category-list .topics {
   width: 50px;
 }
