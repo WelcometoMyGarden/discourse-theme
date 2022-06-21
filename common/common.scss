@@ -1,7 +1,7 @@
 @import 'variables';
 
 @font-face {
-  font-family: FaktPro;
+  font-family: 'Fakt Pro';
   src: url($faktpro) format('woff2');
   font-weight: 400;
 }
@@ -388,7 +388,7 @@ summary.select-kit-header.single-select-header.dropdown-select-box-header {
 
 /* DAVE 20 jun 2022 ------------*/
 body {
-  font-family: FaktPro, Helvetica;
+  font-family: 'Fakt Pro', Helvetica;
 }
 h1, h2, .fancy-title, .category-name {
   font-family: 'Euclid Square', Helvetica;
@@ -415,7 +415,7 @@ h1, h2, .fancy-title, .category-name {
 
 /* categories list */
 .category-list thead {
- // display: none;
+  display: none;
 }
 .category-logo.aspect-image {
   width:180px;
@@ -427,6 +427,10 @@ h1, h2, .fancy-title, .category-name {
 .category-list tbody .category {
   border-left:0;
 }
+.category-list .category-name {
+  font-size: 22px;
+}
+
 .categories-list .category .category-description {
   height: 150px;
   display: table-cell;
