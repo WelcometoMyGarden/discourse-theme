@@ -2,17 +2,17 @@
 
 @font-face {
   font-family: FaktPro;
-  src: url($faktpro) format('woff2');
+  src: url('../assets/Fakt-Normal.woff2') format('woff2');
   font-weight: 400;
 }
 @font-face {
   font-family: FaktPro;
-  src: url($faktprosemibold) format('woff2');
+  src: url('../assets/Fakt-SemiBold.woff2') format('woff2');
   font-weight: 700;
 }
 @font-face {
   font-family: EuclidSquare;
-  src: url($euclidSquare) format('woff2');
+  src: url(/assets/EuclidSquare-Medium.woff2) format('woff2');
   font-weight: 400;
 }
 
