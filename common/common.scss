@@ -5,8 +5,7 @@
   font-family: FaktPro;
   src: url($faktproWoff) format("woff"),
   url($faktproWoff2) format("woff2"),
-  url($faktproTtf) format("truetype"),
-  url($faktproSvg) format("svg");
+  url($faktproTtf) format("truetype");
   font-weight: 400;
 }
 
