@@ -427,7 +427,8 @@ h1, h2, .fancy-title, .category-name {
 }
 .category-logo.aspect-image {
   width:120px;
-  margin-right: 10px;
+  margin-right: 20px;
+  padding-right: 20px;
 }
 .category-list .topics {
   width: 50px;
@@ -442,7 +443,7 @@ h1, h2, .fancy-title, .category-name {
   font-size: 12px;
 }
 .categories-list .category .category-description {
-  height: 140px;
+  height: 120px;
   display: table-cell;
   vertical-align: middle;
   padding-left: 15px;
@@ -469,6 +470,7 @@ h1, h2, .fancy-title, .category-name {
   max-width: 800px;
   margin-left: 20px;
   margin-right: 20px;
+  font-size: 18px;
 }
 
 /* buttons */
