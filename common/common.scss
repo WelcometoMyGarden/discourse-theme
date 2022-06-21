@@ -7,12 +7,12 @@
 }
 @font-face {
   font-family: FaktPro;
-  src: url('../assets/Fakt-SemiBold.woff2') format('woff2');
+  src: url($faktprosemibold) format('woff2');
   font-weight: 700;
 }
 @font-face {
   font-family: EuclidSquare;
-  src: url(/assets/EuclidSquare-Medium.woff2) format('woff2');
+  src: url($EuclidSquare) format('woff2');
   font-weight: 400;
 }
 
@@ -462,6 +462,7 @@ h1, h2, .fancy-title, .category-name {
 .btn-default,
 .btn-default:hover,
 .nav-pills li a.active,
-.nav-pills li a.active:hover {
+.nav-pills li a.active:hover;
+.discourse-no-touch .btn:hover, .discourse-no-touch .btn.btn-hover {
   border-radius: 20px;
 }
