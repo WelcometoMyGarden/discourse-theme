@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: 'Fakt Pro';
-  src: url($faktpro) format('woff2');
+  src: url($faktpro) format('woff');
   font-weight: 400;
 }
 @font-face {
@@ -417,6 +417,9 @@ h1, h2, .fancy-title, .category-name {
 .category-list thead {
   display: none;
 }
+.category-list tbody {
+  border-top: 0;
+}
 .category-logo.aspect-image {
   width:180px;
   margin-right: 10px;
@@ -430,7 +433,9 @@ h1, h2, .fancy-title, .category-name {
 .category-list .category-name {
   font-size: 22px;
 }
-
+.subcategories .subcategory  .category-name {
+  font-size: 12px;
+}
 .categories-list .category .category-description {
   height: 150px;
   display: table-cell;
