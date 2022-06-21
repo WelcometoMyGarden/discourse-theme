@@ -12,9 +12,9 @@
     }
   },
   "assets":{
-    "faktpro": "../assets/Fakt-Normal.woff2",
-    "faktprosemibold": "../assets/Fakt-SemiBold.woff2",
-    "euclidsquare": "../assets/EuclidSquare-Medium.woff2"
+    "faktpro": "assets/Fakt-Normal.woff2",
+    "faktprosemibold": "assets/Fakt-SemiBold.woff2",
+    "euclidsquare": "assets/EuclidSquare-Medium.woff2"
   },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
 }
