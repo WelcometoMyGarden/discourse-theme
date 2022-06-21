@@ -1,10 +1,15 @@
 @import 'variables';
 
+
 @font-face {
-  font-family: 'Fakt Pro';
-  src: url($faktpro) format('woff');
+  font-family: "Fakt Pro";
+  url($faktproWoff) format("woff"),
+  url($faktproWoff2) format("woff2"),
+  url($faktproTtf) format("truetype"),
+  url($faktproSvg) format("svg"),
   font-weight: 400;
 }
+
 @font-face {
   font-family: EuclidSquare;
   src: url($euclidsquare) format('woff2');
