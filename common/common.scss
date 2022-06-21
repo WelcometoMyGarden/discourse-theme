@@ -407,8 +407,8 @@ h1, h2, .fancy-title, .category-name {
 .categories-and-top div.column.categories {
   background: #fff;
   border-radius: 5px;
-  width: 60%;
-  flex: 2 0 0px;
+ // width: 60%;
+ // flex: 2 0 0px;
 }
 .topic-list-main-link a.title, .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title {
@@ -435,7 +435,8 @@ h1, h2, .fancy-title, .category-name {
   padding-right: 0;
 }
 .category-list .topics {
-  width: 50px;
+  // width: 50px;
+  display: none;
 }
 .category-list tbody .category {
   border-left:0;
@@ -450,7 +451,7 @@ h1, h2, .fancy-title, .category-name {
   height: 120px;
   display: table-cell;
   vertical-align: middle;
-  padding-left: 15px;
+  // padding-left: 15px;
 }
 /* other column  */
 .latest-topic-list-item {
