@@ -1,20 +1,21 @@
+@import 'variables';
+
 @font-face {
   font-family: FaktPro;
-  src: url($FaktPro) format('woff2');
+  src: url($faktpro) format('woff2');
   font-weight: 400;
 }
 @font-face {
   font-family: FaktPro;
-  src: url($FaktProSemiBold) format('woff2');
+  src: url($faktprosemibold) format('woff2');
   font-weight: 700;
 }
 @font-face {
   font-family: EuclidSquare;
-  src: url($EuclidSquare) format('woff2');
+  src: url($euclidSquare) format('woff2');
   font-weight: 400;
 }
 
-@import 'variables';
 
 input[type="text"],
 input[type="password"],
