@@ -15,7 +15,9 @@
     "faktproWoff": "assets/Fakt-Normal.woff",
     "faktproWoff2": "assets/Fakt-Normal.woff2",
     "faktproTtf": "assets/Fakt-Normal.ttf",
-    "euclidsquare": "assets/EuclidSquare-Medium.woff2"
+    "euclidsquareWoff": "assets/EuclidSquare-Medium.woff",
+    "euclidsquareWoff2": "assets/EuclidSquare-Medium.woff2",
+    "feuclidsquareTtf": "assets/EuclidSquare-Medium.ttf"
   },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
 }

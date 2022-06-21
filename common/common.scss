@@ -11,7 +11,9 @@
 
 @font-face {
   font-family: EuclidSquare;
-  src: url($euclidsquare) format('woff2');
+  src: url($euclidsquareWoff) format("woff"),
+  url($euclidsquareWoff2) format("woff2"),
+  url($euclidsquareTtf) format("truetype");
   font-weight: 400;
 }
 
@@ -443,6 +445,7 @@ h1, h2, .fancy-title, .category-name {
   height: 140px;
   display: table-cell;
   vertical-align: middle;
+  padding-left: 15px;
 }
 /* other column  */
 .latest-topic-list-item {
@@ -461,11 +464,18 @@ h1, h2, .fancy-title, .category-name {
 .search-menu .search-input input#search-term {
   background: #fff;
 }
+
+.category-heading p {
+  max-width: 800px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/* buttons */
 .btn-default {
   color: #fff;
 }
 
-/* buttons */
 .dropdown-select-box-header,
 .dropdown-select-box-header:hover,
 .btn-default,
@@ -477,7 +487,13 @@ h1, h2, .fancy-title, .category-name {
 .discourse-no-touch .btn.btn-hover {
   border-radius: 20px;
 }
+.btn-default.btn-icon,
+.btn-default.btn-icon:hover {
+  border-radius: 5px;
+}
 
+#create-topic,
 #create-topic:hover {
+  text-transform: capitalize;
   box-shadow: none;
 }
