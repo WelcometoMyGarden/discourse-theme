@@ -486,10 +486,11 @@ h1, h2, .fancy-title, .category-name {
 /* post page */
 
 // buttons below
+.topic-footer-button..btn-default,
 .topic-admin-menu-button-container .btn-default {
   background: #fff;
   color: #000;
-  border:1px solid #1B8C63;
+  border:2px solid #1B8C63;
   text-transform: none;
   border-radius: 20px;
 }
