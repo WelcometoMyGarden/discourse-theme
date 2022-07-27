@@ -459,6 +459,11 @@ h1, h2, .fancy-title, .category-name {
   padding-bottom: 0.5em;
 }
 
+/* buttons on the right */
+.navigation-controls .btn-default.btn-icon:hover {
+  border-radius: 20px;
+}
+
 /* banner on top */
 .custom-search-banner-wrap h1 {
   color: #000;
@@ -483,7 +488,7 @@ h1, h2, .fancy-title, .category-name {
   height:120px;
 }
 
-/* post page */
+/* ----- post page */
 
 // buttons below
 .topic-footer-button.btn-default,
