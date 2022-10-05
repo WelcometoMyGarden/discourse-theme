@@ -489,6 +489,9 @@ h1, h2, .fancy-title, .category-name {
 }
 
 /* ----- post page */
+.btn-primary {
+  border-radius: 20px;
+}
 
 // buttons below
 .topic-footer-button.btn-default,
@@ -531,4 +534,14 @@ h1, h2, .fancy-title, .category-name {
   text-transform: capitalize;
   box-shadow: none;
   border-radius: 20px;
+}
+
+/* -------- HEADER IMAGE ---------*/
+
+above-main-container-outlet {
+  background:url('../assets/TelraamTalksBanner.png');
+  height: 375px;
+  p {
+    display: none;
+  }
 }
