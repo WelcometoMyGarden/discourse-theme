@@ -17,7 +17,8 @@
     "faktproTtf": "assets/Fakt-Normal.ttf",
     "euclidsquareWoff": "assets/EuclidSquare-Medium.woff",
     "euclidsquareWoff2": "assets/EuclidSquare-Medium.woff2",
-    "euclidsquareTtf": "assets/EuclidSquare-Medium.ttf"
+    "euclidsquareTtf": "assets/EuclidSquare-Medium.ttf",
+    "backgroundImage": "../assets/TelraamTalksBanner.png"
   },
   "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
 }

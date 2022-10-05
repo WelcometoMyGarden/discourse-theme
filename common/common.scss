@@ -537,10 +537,10 @@ h1, h2, .fancy-title, .category-name {
 }
 
 /* -------- HEADER IMAGE ---------*/
-
+.navigation-topics .search-banner,
 .navigation-categories .search-banner {
   background-color:#CCC;
-  margin: 0 auto;
+  margin: 20px auto;
 
   .custom-search-banner {
     height: 375px;
