@@ -541,10 +541,14 @@ h1, h2, .fancy-title, .category-name {
 .navigation-categories .search-banner {
   background-color:#CCC;
   margin: 20px auto;
+  height: 375px;
+  background-image:url($backgroundImage);
 
   .custom-search-banner {
     height: 375px;
-    background-image:url($backgroundImage);
+  }
+  h1 {
+    margin-top: 80px;
   }
   p {
     display: none;
