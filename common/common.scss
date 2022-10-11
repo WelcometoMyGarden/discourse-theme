@@ -466,7 +466,7 @@ h1, h2, .fancy-title, .category-name {
 
 /* banner on top */
 .custom-search-banner-wrap h1 {
-  color: #000;
+  // color: #000;
 }
 .custom-search-banner-wrap p {
   color: #1B8C63;
@@ -535,23 +535,27 @@ h1, h2, .fancy-title, .category-name {
   box-shadow: none;
   border-radius: 20px;
 }
-
+#banner, .alert {
+  border-radius: 10px;
+}
 /* -------- HEADER IMAGE ---------*/
 .navigation-topics .search-banner,
 .navigation-categories .search-banner {
   background-color:#CCC;
   margin: 20px auto;
-  height: 375px;
+  height: 275px;
   background-image:url($backgroundImage);
   .custom-search-banner {
-    height: 375px;
+    height: 275px;
   }
   h1 {
-    margin-top: 80px;
-    color: #fff;
-    text-shadow: 0px 1px 0px #000;
+    display: none;
   }
   p {
     display: none;
   }
+  .custom-search-banner-wrap>div {
+    display: none;
+  }
 }
+
