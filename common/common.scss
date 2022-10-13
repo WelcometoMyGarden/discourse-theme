@@ -577,4 +577,13 @@ h1, h2, .fancy-title, .category-name {
   td.latest {
     padding-top: 50px;
   }
+  .category-description {
+    font-style: italic;
+    padding-right: 50px;
+  }
+  .featured-topic::before {
+    content: '->';
+    width: 25px;
+    display: inline-block;
+  }
 }
