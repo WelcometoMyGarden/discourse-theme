@@ -564,16 +564,17 @@ h1, h2, .fancy-title, .category-name {
 .category-list.with-topics {
   border-radius: 10px;
   margin-top: 20px;
+  background: #FFF;
+
   tr {
-    background: #FFF;
   }
   td {
     padding-top: 20px;
   }
-  .td:first-of-type {
+  td:first-of-type {
     padding-left: 20px;
   }
   td.latest {
-    padding-top: 40px;
+    padding-top: 50px;
   }
 }
