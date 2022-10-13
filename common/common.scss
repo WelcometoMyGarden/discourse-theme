@@ -586,4 +586,7 @@ h1, h2, .fancy-title, .category-name {
     width: 25px;
     display: inline-block;
   }
+  .featured-topic .title {
+    border-bottom: 1px solid #eee;
+  }
 }
