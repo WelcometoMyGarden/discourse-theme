@@ -559,3 +559,21 @@ h1, h2, .fancy-title, .category-name {
   }
 }
 
+/* -------- NEW LAYOUT HOMEPAGE 13 OCT ---------*/
+
+.category-list.with-topics {
+  border-radius: 10px;
+  margin-top: 20px;
+  tr {
+    background: #FFF;
+  }
+  td {
+    padding-top: 20px;
+  }
+  .td:first-of-type {
+    padding-left: 20px;
+  }
+  td.latest {
+    padding-top: 40px;
+  }
+}
