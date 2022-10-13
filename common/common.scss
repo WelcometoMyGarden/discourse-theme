@@ -589,4 +589,8 @@ h1, h2, .fancy-title, .category-name {
   .featured-topic .title {
     border-bottom: 1px solid #eee;
   }
+  .featured-topic .title:hover {
+    color: #000;
+    border-bottom: 1px solid #ccc;
+  }
 }
