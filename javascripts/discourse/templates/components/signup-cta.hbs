@@ -1,0 +1,20 @@
+<div class="signup-cta alert alert-info">
+  {{#if this.session.hideSignupCta}}
+    <h3>
+      {{i18n "signup_cta.hidden_for_session"}}
+    </h3>
+  {{else}}
+    <h3>{{replace-emoji (i18n "signup_cta.intro")}}</h3>
+    <p>{{replace-emoji (i18n "signup_cta.value_prop")}}</p>
+
+    <div class="buttons">
+      {{#if (and (theme-setting 'cta_sso_signup_button_url') this.siteSettings.enable_discourse_connect)}}
+        <DButton @href={{theme-setting "sso_signup_url"}} @label="signup_cta.sign_up" @icon="user" @class="btn-primary" />
+        {{else}}
+        <DButton @action={{route-action "showCreateAccount"}} @label="signup_cta.sign_up" @icon="user" @class="btn-primary" />
+      {{/if}}
+      <DButton @action={{action "hideForSession"}} @label="signup_cta.hide_session" @class="no-icon" />
+      <a href {{on "click" this.neverShow}}>{{i18n "signup_cta.hide_forever"}}</a>
+    </div>
+  {{/if}}
+</div>
