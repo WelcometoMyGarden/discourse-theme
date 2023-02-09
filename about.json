@@ -6,12 +6,13 @@
     "basilicum": {
       "primary": "0000",
       "secondary": "F5F5F5",
-      "tertiary": "1B8C63",
+      "tertiary": "495747",
+      "quaternary": "ed7f69",
       "header_background": "ffffff",
       "header_primary": "111111"
     }
   },
-  "assets":{
+  "assets": {
     "faktproWoff": "assets/Fakt-Normal.woff",
     "faktproWoff2": "assets/Fakt-Normal.woff2",
     "faktproTtf": "assets/Fakt-Normal.ttf",
@@ -20,5 +21,8 @@
     "euclidsquareTtf": "assets/EuclidSquare-Medium.ttf",
     "backgroundImage": "assets/TelraamTalksBanner.png"
   },
-  "components": ["https://github.com/discourse/discourse-showcased-categories.git","https://github.com/discourse/discourse-search-banner.git"]
+  "components": [
+    "https://github.com/discourse/discourse-showcased-categories.git",
+    "https://github.com/discourse/discourse-search-banner.git"
+  ]
 }
