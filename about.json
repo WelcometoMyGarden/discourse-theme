@@ -19,7 +19,7 @@
     "euclidsquareWoff": "assets/EuclidSquare-Medium.woff",
     "euclidsquareWoff2": "assets/EuclidSquare-Medium.woff2",
     "euclidsquareTtf": "assets/EuclidSquare-Medium.ttf",
-    "backgroundImage": "assets/TelraamTalksBanner.png"
+    "backgroundImage": "assets/community-banner-high.png"
   },
   "components": [
     "https://github.com/discourse/discourse-showcased-categories.git",

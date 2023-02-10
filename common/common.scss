@@ -478,7 +478,7 @@ h1, h2, .fancy-title, .category-name {
   // color: #000;
 }
 .custom-search-banner-wrap p {
-  color: #1B8C63;
+  color: var(--tertiary);
 }
 
 .search-menu .search-input input#search-term {
@@ -507,7 +507,7 @@ h1, h2, .fancy-title, .category-name {
 .topic-admin-menu-button-container .btn-default {
   background: #fff;
   color: #000;
-  border:2px solid #1B8C63;
+  border:2px solid var(--tertiary);
   text-transform: none;
   border-radius: 20px;
 }
@@ -554,6 +554,8 @@ h1, h2, .fancy-title, .category-name {
   margin: 20px auto;
   height: 275px;
   background-image:url($backgroundImage);
+  background-size: cover;
+  background-position: center;
   .custom-search-banner {
     height: 275px;
   }
