@@ -552,7 +552,8 @@ h1, h2, .fancy-title, .category-name {
 .navigation-categories .search-banner {
   background-color:#CCC;
   margin: 20px auto;
-  height: 275px;
+  max-height: 129px;
+  aspect-ratio: 7.5;
   background-image:url($backgroundImage);
   background-size: cover;
   background-position: center;
