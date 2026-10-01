@@ -2,10 +2,6 @@ sso_signup_url:
   type: string
   default: ""
   description: "Here you can add the DiscourseConnect Signup button URL. <br> Add the full URL e.g. https://example.com/signup"
-cta_sso_signup_button_url:
-  type: bool
-  default: false
-  description: "Enable the custom DiscourseConnect Signup button URL to CTA banner."
 hide_sso_signup_button_on_mobile:
   type: bool
   default: false

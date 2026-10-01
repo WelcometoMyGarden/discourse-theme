@@ -22,7 +22,6 @@
     "backgroundImage": "assets/community-banner-apr-2023.png"
   },
   "components": [
-    "https://github.com/discourse/discourse-showcased-categories.git",
-    "https://github.com/discourse/discourse-search-banner.git"
+    "https://github.com/discourse/discourse-showcased-categories.git"
   ]
 }

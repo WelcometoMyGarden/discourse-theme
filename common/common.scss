@@ -112,15 +112,6 @@ input[type="color"]:focus,
   }
 }
 
-.navigation-categories .search-banner {
-  @include border-radius;
-  height: 240px;
-  box-sizing: border-box;
-  padding: 1.5em 0 3em;
-  margin: 1em auto;
-  max-width: 1110px;
-}
-
 .category-box-inner {
   background: $color-white;
 }
@@ -378,10 +369,6 @@ a:hover {
   }
 }
 
-.custom-search-banner-wrap h1, .custom-search-banner-wrap p {
-  color: $color-white;
-}
-
 .btn[href] {
   color: var(--secondary);
 }
@@ -473,14 +460,6 @@ h1, h2, .fancy-title, .category-name {
   border-radius: 20px;
 }
 
-/* banner on top */
-.custom-search-banner-wrap h1 {
-  // color: #000;
-}
-.custom-search-banner-wrap p {
-  color: var(--tertiary);
-}
-
 .search-menu .search-input input#search-term {
   background: #fff;
 }
@@ -548,27 +527,33 @@ h1, h2, .fancy-title, .category-name {
   border-radius: 10px;
 }
 /* -------- HEADER IMAGE ---------*/
-.navigation-topics .search-banner,
-.navigation-categories .search-banner {
-  background-color:#CCC;
+// Core's welcome banner, reduced to an image strip: no headline, no search.
+// Core hides it on small viewports (it's mostly a search box), so show it again.
+body .welcome-banner {
+  display: block;
+}
+.welcome-banner__title,
+.welcome-banner__search-menu {
+  display: none;
+}
+.welcome-banner__wrap {
+  @include border-radius;
+  box-sizing: border-box;
+  padding: 0;
   margin: 20px auto;
   max-height: 129px;
   aspect-ratio: 7.5;
-  background-image:url($backgroundImage);
+  background-color: #CCC;
+  background-image: url($backgroundImage);
   background-size: cover;
   background-position: center;
-  .custom-search-banner {
-    height: 275px;
-  }
-  h1 {
-    display: none;
-  }
-  p {
-    display: none;
-  }
-  .custom-search-banner-wrap>div {
-    display: none;
-  }
+}
+.navigation-categories .welcome-banner__wrap {
+  max-width: 1110px;
+}
+
+.sso-signup-button {
+  margin-inline-end: 0.5em;
 }
 
 /* -------- NEW LAYOUT HOMEPAGE 13 OCT ---------*/
