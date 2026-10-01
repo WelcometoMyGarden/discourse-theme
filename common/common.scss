@@ -145,10 +145,6 @@ input[type="color"]:focus,
   color: $color-black;
 }
 
-a {
-  color: var(--tertiary-hover);
-}
-
 .category-boxes {
   display: grid;
   grid-gap: 2em;
@@ -354,7 +350,7 @@ a {
 }
 
 a:hover {
-  color: var(--tertiary-hover);
+  color: var(--basilicum-link-color-hover);
 }
 
 .image-upload-controls .btn-default {
@@ -576,6 +572,7 @@ h1, h2, .fancy-title, .category-name {
     flex: 0 0 20px;
   }
   .featured-topic .title {
+    color: var(--tertiary-hover);
     border-bottom: 1px solid #eee;
   }
   .featured-topic .title:hover {
