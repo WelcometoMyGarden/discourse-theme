@@ -5,15 +5,9 @@ Based on [Telraam's discourse theme](https://github.com/Telraam/discourse), whic
 
 ## Configuration
 
-### Welcome banner
+### Banner image
 
-The banner image above the topic and category lists is Discourse core's welcome banner, styled by this theme as an image-only strip (no headline, no search). Configure it under **Admin > Welcome banner** (`/admin/config/welcome-banner`):
-
-- **Enabled on themes**: select Basilicum
-- **Page visibility**: `Top menu pages`
-- **Location**: `Below site header`
-
-The image comes from the theme's `backgroundImage` asset (see `about.json`), so leave the core banner image setting empty.
+The theme shows its `backgroundImage` asset (see `about.json`) as a banner above the top menu pages. Keep Discourse's own welcome banner disabled for this theme (**Admin > Welcome banner**, `/admin/config/welcome-banner`): its search box would replace the search in the header.
 
 ### DiscourseConnect sign up button
 

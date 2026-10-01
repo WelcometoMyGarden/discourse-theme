@@ -527,19 +527,8 @@ h1, h2, .fancy-title, .category-name {
   border-radius: 10px;
 }
 /* -------- HEADER IMAGE ---------*/
-// Core's welcome banner, reduced to an image strip: no headline, no search.
-// Core hides it on small viewports (it's mostly a search box), so show it again.
-body .welcome-banner {
-  display: block;
-}
-.welcome-banner__title,
-.welcome-banner__search-menu {
-  display: none;
-}
-.welcome-banner__wrap {
+.basilicum-banner {
   @include border-radius;
-  box-sizing: border-box;
-  padding: 0;
   margin: 20px auto;
   max-height: 129px;
   aspect-ratio: 7.5;
@@ -548,12 +537,8 @@ body .welcome-banner {
   background-size: cover;
   background-position: center;
 }
-.navigation-categories .welcome-banner__wrap {
+.navigation-categories .basilicum-banner {
   max-width: 1110px;
-}
-
-.sso-signup-button {
-  margin-inline-end: 0.5em;
 }
 
 /* -------- NEW LAYOUT HOMEPAGE 13 OCT ---------*/
