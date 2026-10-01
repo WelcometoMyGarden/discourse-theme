@@ -261,6 +261,11 @@ a {
     color: var(--secondary);
     border: 1px solid $color-salmon;
   }
+  // Core underlines active (and hovered) pills
+  &.active::after,
+  &:hover::after {
+    content: none;
+  }
 }
 
 .select-kit.dropdown-select-box .dropdown-select-box-header {
@@ -563,10 +568,12 @@ h1, h2, .fancy-title, .category-name {
     font-style: italic;
     padding-right: 50px;
   }
+  .featured-topic {
+    margin-top: 10px;
+  }
   .featured-topic::before {
-    content: '->';
-    width: 20px;
-    display: inline-block;
+    content: '\2192';
+    flex: 0 0 20px;
   }
   .featured-topic .title {
     border-bottom: 1px solid #eee;

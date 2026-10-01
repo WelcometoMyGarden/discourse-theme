@@ -4,6 +4,12 @@
 body {
 
 }
+
+// Logo beside the description
+.category-list .category .category-logo.aspect-image {
+  float: left;
+}
+
 body:not(.navigation-categories):not(.navigation-topics) #main-outlet {
   @include border-radius;
   box-shadow: 0 8px 60px 0 rgba(103,151,255,.10), 0 12px 90px 0 rgba(133,255,103,.10);
